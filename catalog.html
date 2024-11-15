@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Electronics: Electronic Goods Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo"><img src="logo.png" alt="Element Electronics" width="50px"></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <a href="#"><img src="search.png" alt="Search Icon"></a>
+            </div>
+            <div class="account">
+                <a href="#"><img src="account.png" alt="Account Icon"></a>
+            </div>
+            <div class="cart">
+                <a href="#"><img src="cart.png" alt="Cart Icon"> Cart (0)</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Catalog Section with Sidebar and Main Content -->
+    <section class="catalog-container">
+        <!-- Sidebar Filters -->
+        <aside class="sidebar">
+            <h2>Filter by:</h2>
+            <div class="filter">
+                <h3>Category</h3>
+                <ul>
+                    <li><input type="checkbox"> Laptops</li>
+                    <li><input type="checkbox"> Monitors</li>
+                    <li><input type="checkbox"> Accessories</li>
+                </ul>
+            </div>
+            <div class="filter">
+                <h3>Brand</h3>
+                <ul>
+                    <li><input type="checkbox"> Apple</li>
+                    <li><input type="checkbox"> Dell</li>
+                    <li><input type="checkbox"> Samsung</li>
+                </ul>
+            </div>
+            <div class="filter">
+                <h3>Price Range</h3>
+                <input type="range" min="0" max="1000" id="priceRange">
+                <span id="priceDisplay">$0 - $1000</span>
+            </div>
+        </aside>
+
+        <!-- Main Catalog Area -->
+        <main class="catalog-content">
+            <h1>Electronic Goods Catalog</h1>
+            <div class="catalog-grid">
+                <!-- Product Item -->
+                <div class="product-item">
+                    <img src="placeholder.jpg" alt="Product Image">
+                    <h3>Product Name</h3>
+                    <p>Brief description of the product.</p>
+                    <p><strong>$Price</strong></p>
+                    <button>View Details</button>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Element Electronics. All Rights Reserved.</p>
+            <div class="subscription">
+                <input type="email" placeholder="Subscribe to our newsletter" aria-label="Email subscription">
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

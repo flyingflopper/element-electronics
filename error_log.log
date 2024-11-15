@@ -1,0 +1,33 @@
+[11-Nov-2024 13:48:24 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'element_electronics.order_items' doesn't exist in C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php:25
+Stack trace:
+#0 C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php(25): mysqli->prepare('SELECT p.name a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php on line 25
+[11-Nov-2024 13:49:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'element_electronics.order_items' doesn't exist in C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php:25
+Stack trace:
+#0 C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php(25): mysqli->prepare('SELECT p.name a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php on line 25
+[11-Nov-2024 13:49:56 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'element_electronics.order_items' doesn't exist in C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php:25
+Stack trace:
+#0 C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php(25): mysqli->prepare('SELECT p.name a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php on line 25
+[11-Nov-2024 13:52:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'element_electronics.order_items' doesn't exist in C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php:25
+Stack trace:
+#0 C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php(25): mysqli->prepare('SELECT p.name a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php on line 25
+[11-Nov-2024 13:52:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'element_electronics.order_items' doesn't exist in C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php:25
+Stack trace:
+#0 C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php(25): mysqli->prepare('SELECT p.name a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\IE4727\IE4727 Element Electronics\Project\fetch_order_details.php on line 25
+[11-Nov-2024 23:25:49 Europe/Berlin] No items found for order_id: 1
+[11-Nov-2024 23:26:18 Europe/Berlin] No items found for order_id: 1
+[11-Nov-2024 23:26:23 Europe/Berlin] No items found for order_id: 1
+[11-Nov-2024 23:26:37 Europe/Berlin] No items found for order_id: 1
+[11-Nov-2024 23:47:56 Europe/Berlin] No items found for order_id: 1
+[11-Nov-2024 23:48:13 Europe/Berlin] No items found for order_id: 2
+[11-Nov-2024 23:48:38 Europe/Berlin] No items found for order_id: 5
+[13-Nov-2024 01:24:43 Europe/Berlin] No items found for order_id: 11
