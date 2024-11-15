@@ -46,7 +46,7 @@ $billing_address2 = $_POST['billing_address2'] ?? '';
 $total = $_POST['total'] ?? 0.0;
 
 $cartItemsQuery = "
-SELECT c.id, p.product_id, p.name, p.price AS base_price, p.thumbnail_urls AS thumbnail, c.quantity, c.color, c.storage
+SELECT c.product_id, p.name, p.price AS base_price, p.thumbnail_urls AS thumbnail, c.quantity, c.color, c.storage
 FROM carts c
 JOIN products p ON c.product_id = p.product_id
 WHERE c.user_id = ?";
@@ -66,7 +66,7 @@ while ($item = $cartResult->fetch_assoc()) {
     $mainThumbnail = trim($thumbnailUrls[0]);
 
     $cartItems[] = [
-        'id' => $item['id'],
+        'id' => $item['product_id'],
         'name' => $item['name'],
         'price' => $adjustedPrice,
         'quantity' => $item['quantity'],
